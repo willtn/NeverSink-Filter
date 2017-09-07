@@ -308,13 +308,13 @@ Show #$lead to gold bases %TC-Corrupted-Bases
 # Example, to add Agate amulet:
 # BaseType "Sorcerer Boots"
 
-#Show #$chancing (with sound) %TB-T1-Chancing %D4
-#	BaseType "Glorious Plate"
-#	Rarity Normal
-#	SetFontSize 38
-#	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Normal Items: Strong Highlight
-#	SetBorderColor 0 210 0 210           # BORDERCOLOR:	 T1 Chancing
-#	PlayAlertSound 7 300                 # DROPSOUND:	 T1 chancing items
+Show #$chancing (with sound) %TB-T1-Chancing %D4
+	BaseType "Glorious Plate" "Leather Belt"
+	Rarity Normal
+	SetFontSize 38
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Normal Items: Strong Highlight
+	SetBorderColor 0 210 0 210           # BORDERCOLOR:	 T1 Chancing
+	PlayAlertSound 7 300                 # DROPSOUND:	 T1 chancing items
 
 #Show #$chancing (no sound) %TB-T2-Chancing %D3
 #	BaseType "Leather Belt"
