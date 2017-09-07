@@ -756,7 +756,7 @@ Hide # Minimize junk instead of hiding (if "Show") %TC-Junkable
 
 Show # %H5 %TB-Currency-T4
 	Class Currency
-	BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Silver Coin" "Glassblower's Bauble"
+	BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Silver Coin" "Glassblower's Bauble" "Orb of Augmentation" "Orb of Transmutation" 
 	SetFontSize 42
 	SetTextColor 210 178 135 255         # TEXTCOLOR:	 Low currency T1
 	SetBorderColor 213 159 100 200       # BORDERCOLOR:	 T1 LOW currency
@@ -764,14 +764,14 @@ Show # %H5 %TB-Currency-T4
 
 Hide # %H4 %TB-Currency-T5
 	Class Currency
-	BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Alchemy Shard"
+	BaseType "Blacksmith's Whetstone" "Alchemy Shard"
 	SetFontSize 42
 	SetBorderColor 190 178 135 110       # BORDERCOLOR:	 T2 LOW currency
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 
 Hide # %H2 %TB-Currency-T6
 	Class Currency
-	BaseType "Armourer's Scrap" "Orb of Augmentation" "Transmutation Shard" "Alteration Shard"
+	BaseType "Armourer's Scrap" "Transmutation Shard" "Alteration Shard" "Binding Shard"
 	SetFontSize 40
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
 	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
@@ -1972,7 +1972,7 @@ Show # %TB-Currency-Harbinger-ShardsT1
 
 Show # %TB-Currency-Harbinger-ShardsT2 %H5
 	Class Currency
-	BaseType "Horizon Shard" "Engineer's Shard" "Binding Shard"
+	BaseType "Horizon Shard" "Engineer's Shard"
 	SetFontSize 42
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
