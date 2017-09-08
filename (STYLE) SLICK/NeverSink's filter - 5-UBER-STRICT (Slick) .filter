@@ -771,7 +771,7 @@ Hide # %H4 %TB-Currency-T5
 
 Hide # %H2 %TB-Currency-T6
 	Class Currency
-	BaseType "Armourer's Scrap" "Transmutation Shard" "Alteration Shard" "Binding Shard"
+	BaseType "Armourer's Scrap" "Transmutation Shard" "Alteration Shard"
 	SetFontSize 40
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Low currency T3
 	SetBorderColor 60 50 30 255          # BORDERCOLOR:	 T3 LOW currency
@@ -1972,7 +1972,7 @@ Show # %TB-Currency-Harbinger-ShardsT1
 
 Show # %TB-Currency-Harbinger-ShardsT2 %H5
 	Class Currency
-	BaseType "Horizon Shard" "Engineer's Shard"
+	BaseType "Horizon Shard" "Engineer's Shard" "Binding Shard"
 	SetFontSize 42
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
